@@ -1,16 +1,7 @@
 [user]
-  name = Bobby Norton
-  email = bobby@testedminds.com
+  name = ilyabe@gmail.com
+  email = ilya.bernshteyn@rate.com
 [alias]
-  st = status
-  br = branch
-  ci = commit
-  co = checkout
-  logp = log -p
-  lol = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-  ls = ls-files
-  pr = pull --rebase
 [color]
   ui = auto
 [color "branch"]
@@ -36,5 +27,5 @@
 [remote "origin"]
   push = HEAD
 [git-pair]
-  authors = Bobby Norton <bobby@testedminds.com>
+  authors = Ilya Bernshteyn <ilya.bernshteyn@rate.com>
 
