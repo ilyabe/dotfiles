@@ -7,7 +7,7 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-# Exports
+# Environment variables
 export SHELL=/usr/local/bin/bash
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$PATH
 export LSCOLORS=gxfxcxdxbxegedabagacad
@@ -21,3 +21,6 @@ alias ll="ls -alG"
 alias tree="tree -C"
 alias dev="cd ~/Development"
 alias utc="date -u"
+
+# Pull in .bashrc
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi 
