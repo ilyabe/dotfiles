@@ -6,3 +6,18 @@ PS1='[Be the change you want to see] [\d \t] [\u@\h] [\w]\n✌ '
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+# Exports
+export SHELL=/usr/local/bin/bash
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$PATH
+export LSCOLORS=gxfxcxdxbxegedabagacad
+export JAVA_HOME=`/usr/libexec/java_home`
+export JDK_HOME=`/usr/libexec/java_home`
+export RBENV_ROOT=/usr/local/var/rbenv
+
+# Aliases
+alias ls="ls -G"
+alias ll="ls -alG"
+alias tree="tree -C"
+alias dev="cd ~/Development"
+alias utc="date -u"
