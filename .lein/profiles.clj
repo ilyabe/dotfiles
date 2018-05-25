@@ -1,6 +1,7 @@
 {:user {
-        :plugins [
-                  [cider/cider-nrepl "0.8.2"]]
+        :plugins [[lein-ancient "0.6.15"]
+                  [lein-autoreload "0.1.1"]
+                  [venantius/ultra "0.5.2"]]
         :repl-options
         {:init
          (do
