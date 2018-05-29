@@ -1,6 +1,6 @@
 # Customize the bash prompt
 # reference: https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-PS1='[Be the change you want to see] [\d \t] [\u@\h] [\w]\n✌ '
+PS1='["Be the change that you wish to see in the world" ~Mahatma Ghandi] [\d \t] [\u@\h] [\w]\n✌ '
 
 # Enable git autocompletion
 if [ -f ~/.git-completion.bash ]; then
@@ -9,7 +9,7 @@ fi
 
 # Environment variables
 export SHELL=/usr/local/bin/bash
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$PATH
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/Cellar/postgresql@9.6/9.6.9/bin:$PATH
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export JAVA_HOME=`/usr/libexec/java_home`
 export JDK_HOME=`/usr/libexec/java_home`
