@@ -1,6 +1,10 @@
 # Customize the bash prompt
 # reference: https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
-PS1='\u@\h:\w [\d \t "Be the change that you wish to see in the world" ~Mahatma Ghandi]\n✌ '
+# colors: https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-ps1-prompt#124408
+green='[1;32m'
+blue='[1;34m'
+yellow='[0;33m'
+PS1='\e${green}\u@\h\e[m:\e${blue}\w\e[m @ \e${yellow}\d \t\e[m ["Be the change that you wish to see in the world" ~Mahatma Ghandi]\n✌ '
 
 # Enable git autocompletion
 if [ -f ~/.git-completion.bash ]; then
@@ -24,4 +28,4 @@ alias dev="cd ~/Development"
 alias utc="date -u"
 
 # Pull in .bashrc
-if [ -f ~/.bashrc ]; then . ~/.bashrc; fi 
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
