@@ -4,10 +4,10 @@ echo "Creating symlinks..."
 
 # symlink the dotfiles in ~ to the ones in the repo
 # ln -sf <to> <from>
-ln -sf ~/Development/dotfiles/.bash_profile ~/.bash_profile 
-ln -sf ~/Development/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/Development/dotfiles/.gitignore_global ~/.gitignore_global
-ln -sf ~/Development/dotfiles/.lein ~/.lein
+ln -sf ~/Dev/dotfiles/.bash_profile ~/.bash_profile
+ln -sf ~/Dev/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/Dev/dotfiles/.gitignore_global ~/.gitignore_global
+ln -sf ~/Dev/dotfiles/.lein ~/.lein
 
 # Get the git autocompletion script
 echo "Getting the git autocompletion script..."
