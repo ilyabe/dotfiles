@@ -29,3 +29,5 @@
 [git-pair]
   authors = Ilya Bernshteyn <ilya.bernshteyn@rate.com>
 
+[credential]
+	helper = osxkeychain
