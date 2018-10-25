@@ -14,10 +14,14 @@ fi
 # Environment variables
 export SHELL=/usr/local/bin/bash
 export POSTGRES=/usr/local/Cellar/postgresql@9.6/9.6.9/bin
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$POSTGRES:$PATH
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$POSTGRES:~/bin:$PATH
 export LSCOLORS=gxfxcxdxbxegedabagacad
-export JAVA_HOME=`/usr/libexec/java_home`
-export JDK_HOME=`/usr/libexec/java_home`
+#export JAVA_HOME=`/usr/libexec/java_home`
+#export JDK_HOME=`/usr/libexec/java_home`
+export JAVA_HOME="`/usr/libexec/java_home -v '1.8*'`"
+export JDK_HOME="`/usr/libexec/java_home -v '1.8*'`"
+#export JAVA_HOME="`/usr/libexec/java_home -v '1.11*'`"
+#export JDK_HOME="`/usr/libexec/java_home -v '1.11*'`"
 export RBENV_ROOT=/usr/local/var/rbenv
 
 # Aliases
