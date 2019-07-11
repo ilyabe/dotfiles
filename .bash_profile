@@ -4,7 +4,7 @@
 green='[1;32m'
 blue='[1;34m'
 yellow='[0;33m'
-PS1='\e${green}\u@\h\e[m:\e${blue}\w\e[m @ \e${yellow}\d \t\e[m ["Be the change that you wish to see in the world" ~Mahatma Ghandi]\n✌ '
+PS1='\e${green}\u@\h\e[m:\e${blue}\w\e[m @ \e${yellow}\d \t\e[m ["Be the change that you wish to see in the world" ~Mahatma Ghandi]\n$ '
 
 # Enable git autocompletion
 if [ -f ~/.git-completion.bash ]; then
