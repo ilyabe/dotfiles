@@ -14,7 +14,8 @@ fi
 # Environment variables
 export SHELL=/usr/local/bin/bash
 export POSTGRES=/usr/local/Cellar/postgresql@9.6/9.6.9/bin
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$POSTGRES:~/bin:$PATH
+export MONGO_DB=~/mongodb-osx-x86_64-4.0.10/bin
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/heroku/bin:$POSTGRES:~/bin:$MONGO_DB:$PATH
 export LSCOLORS=gxfxcxdxbxegedabagacad
 #export JAVA_HOME=`/usr/libexec/java_home`
 #export JDK_HOME=`/usr/libexec/java_home`
