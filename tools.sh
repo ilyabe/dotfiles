@@ -2,7 +2,7 @@ echo "Starting install of tools..."
 
 # Install Homebrew package manager
 echo "Installing Homebrew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install postgres
 echo "Installing postgres..."
